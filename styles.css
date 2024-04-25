@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Couleur sombre pour évoquer l'obscurité d'une salle de cinéma */
+    color: #fff; /* Texte en blanc pour un contraste élevé */
+    padding: 20px;
+}
+
+/* Titres */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffcc00; /* Jaune pour attirer l'attention */
+}
+
+/* Formulaires */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333; /* Fond sombre */
+    color: #fff;
+}
+
+/* Bouton */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00; /* Jaune pour attirer l'attention */
+    color: #121212; /* Texte sombre pour un contraste élevé */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffc107; /* Variation de jaune au survol */
+}
